@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.connect('mongodb+srv://cmohak2004:mohak-20@cluster-paytm.3xzyfb4.mongodb.net/');
+//get your url from mongodb compass or learn how to do it from yt (i've removed mine for obvious reasons, ik ishouldve added a .env file.)
+mongoose.connect('YOUR_MONGODB_URL');
 
 const userSchema = mongoose.Schema({
     firstName : String,
